@@ -1,50 +1,29 @@
 # Chicago_Taxi_Data_Analysis
-This project uses machine learning on the Chicago Taxi Trip dataset to predict trip durations. Using Python and scikit-learn, it analyzes data, engineers features, and builds predictive models.
 
-Objective
+🎯 Project Overview
 
-The goal of this project is to analyze the Chicago Taxi Trip dataset to predict taxi trip duration using machine learning models.
+Developed predictive analytics solution for transportation optimization, analyzing comprehensive taxi operations data to improve fleet management, route optimization, and service delivery efficiency in urban transportation networks.
 
-Data
+💼 Business Problem
 
-The dataset contains taxi trip records for rides in Chicago. Each record has attributes like pickup and dropoff locations, timestamps, trip miles, fare, payment type and additional metadata.
+Transportation companies needed better trip duration prediction capabilities and operational insights to optimize fleet allocation, improve customer experience, reduce empty miles, and enhance operational efficiency in competitive urban taxi markets.
 
-Methods
+🔧 Technical Solution
 
-The project utilizes Python and scikit-learn for data analysis, feature engineering and modeling. The key steps are:
+Built predictive models to estimate taxi trip duration using comprehensive features including Trip Miles, Tips, Dropoff and Pickup Community Areas, timestamps, fare data, and payment types. Performed extensive data preprocessing with missing value handling, outlier treatment, feature engineering (trip speed, time of day patterns, community mapping), and feature scaling. Implemented Random Forest and Linear Regression models with comprehensive evaluation using MAE, MSE, R-squared, and RMSE metrics.
 
-Data Loading and Cleaning
+📊 Key Results
 
-Load the CSV data into a Pandas Data Frame.
+Comprehensive predictive modeling framework for trip duration estimation
+Advanced feature engineering including temporal patterns and location mapping
+Extensive model evaluation across multiple performance metrics
+Insights into key factors affecting trip duration and operational efficiency
 
-Handle missing values, data types and outliers.
+💰 Business Impact
 
-Add derived features like hour, day from timestamps.
+Identified opportunities for fleet optimization, dynamic pricing strategies, and demand forecasting applications. Provided foundation for improved resource allocation, route optimization, and enhanced customer service delivery in transportation industry, enabling data-driven operational improvements and competitive advantage.
 
-Exploratory Data Analysis
+Skills: 
 
-Visualize trip locations, temporal patterns, numeric distributions.
+Statistical Modeling · Data Interpretation · Data-driven Decision Making · Problem Solving · Statistical Analysis · SQL · Critical Thinking · Python (Programming Language) · Data Visualization · Matplotlib · Exploratory Data Analysis
 
-Identify correlations between features.
-
-Feature Engineering
-
-Engineer features like trip speed, time of day, payment types.
-
-Map pickup and dropoff locations to communities.
-
-Modeling
-
-Compare regression models like Random Forest, Linear Regression.
-
-Use metrics like MAE, MSE, R-squared, RMSE for evaluation.
-
-Expected Outcomes
-
-Predictive model for trip duration with good performance.
-
-Interpretable insights into key factors affecting duration.
-
-Suggestions to optimize taxi trip times.
-
-This covers the key elements of my updated proposed approach. This approach is subject to change based on any issues encountered during the implementation phase which may lead changes in it in terms of its proposed milestones including but not limited to specific methods, visualizations, and algorithms as needed.
